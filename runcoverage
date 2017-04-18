@@ -1,0 +1,5 @@
+#!/bin/bash
+
+script=$1
+coverage run $script
+coverage report -m
